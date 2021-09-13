@@ -1,9 +1,4 @@
 #pragma once
-class AccountQueue
-{
-};
-
-#pragma once
 #include "AccountQueueNode.h"
 #include <fstream>
 using namespace std;
