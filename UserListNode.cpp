@@ -25,11 +25,6 @@ UserListNode* UserListNode::GetNext()
 
 }
 
-AccountBSTNode* UserListNode::InsertAccount(AccountBSTNode* node)
-{
-
-}
-
 void UserListNode::SetName(char* name)
 {
 
@@ -41,6 +36,11 @@ void UserListNode::SetAge(int age)
 }
 
 void UserListNode::SetNext(UserListNode* node)
+{
+
+}
+
+AccountBSTNode* UserListNode::InsertAccount(AccountBSTNode* node)
 {
 
 }
