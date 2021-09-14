@@ -7,7 +7,7 @@ class UserListNode
 private:
 	char* Name;
 	int Age;
-
+	int AccNum;
 	UserListNode* pNext;
 	AccountBSTNode* pHead;
 
@@ -17,10 +17,12 @@ public:
 
 	char* GetName();
 	int GetAge();
+	int GetAccNum() {return AccNum;}
 	UserListNode* GetNext();
 	
 	void SetName(char* name);
 	void SetAge(int age);
+	void SetAccNum();
 	void SetNext(UserListNode* node);
 	
 	AccountBSTNode* InsertAccount(AccountBSTNode* node);
