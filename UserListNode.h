@@ -22,7 +22,6 @@ public:
 	
 	void SetName(char* name);
 	void SetAge(int age);
-	void SetAccNum();
 	void SetNext(UserListNode* node);
 	
 	AccountBSTNode* InsertAccount(AccountBSTNode* node);
