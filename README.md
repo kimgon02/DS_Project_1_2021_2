@@ -22,10 +22,11 @@
 
 ### 1. 프로젝트 문서 및 소스코드 수정사항
 
-#### [2021_DS_Project1_ver1.pdf](https://github.com/DSLDataStorage/DS_Project_1_2021_2/files/7154298/2021_DS_Project1_ver1.pdf)
+#### [2021_DS_Project1_ver1.pdf](https://github.com/DSLDataStorage/DS_Project_1_2021_2/files/7159032/2021_DS_Project1_ver1.pdf)
 #### UserListNode.h 수정 - int AccNum(계정 수) 변수 추가, int GetAccNum 함수 추가
 ```
 9/13 - ver1 업로드
+9/14 - ver1 그림 업데이트 및 밑줄 표시
 ```
 
 
@@ -78,4 +79,38 @@ $ ./run
 $ cat log.txt
 ==> command 1) QLOAD
 Success
+```
+
+### how to make tar.gz
+##### 압축할 파일들은 하나의 디렉토리에 모아두고 tar 명령어를 실행한다.
+```
+$ ls
+AccountBST.cpp AccountBST.h AccountBSTNode.cpp AccountBSTNode.h AccountQueue.cpp AccountQueue.h AccountQueueNode.cpp AccountQueueNode.h main.cpp Manager.cpp Manager.h UserHeap.cpp UserHeap.h UserHeapNode.cpp UserHeapNode.h UserList.cpp UserList.h UserListNode.cpp UserListNode.h
+
+$ tar -czvf 2020202001_DS_project1.tar.gz *
+AccountBST.cpp
+AccountBST.h
+AccountBSTNode.cpp
+...
+UserListNode.h
+
+$ ls
+**2020202001_DS_project1.tar.gz** AccountBST.cpp AccountBST.h AccountBSTNode.cpp AccountBSTNode.h AccountQueue.cpp AccountQueue.h AccountQueueNode.cpp AccountQueueNode.h main.cpp Manager.cpp Manager.h UserHeap.cpp UserHeap.h UserHeapNode.cpp UserHeapNode.h UserList.cpp UserList.h UserListNode.cpp UserListNode.h
+```
+
+### how to decompress tar.gz
+##### tar.gz 파일이 잘 압축되었는지 확인하기 위해 실행한다.
+```
+$ ls
+2020202001_DS_project1.tar.gz
+
+$ tar -xzvf 2020202001_DS_project1.tar.gz
+AccountBST.cpp
+AccountBST.h
+AccountBSTNode.cpp
+...
+UserListNode.h
+
+$ ls
+2020202001_DS_project1.tar.gz AccountBST.cpp AccountBST.h AccountBSTNode.cpp AccountBSTNode.h AccountQueue.cpp AccountQueue.h AccountQueueNode.cpp AccountQueueNode.h main.cpp Manager.cpp Manager.h UserHeap.cpp UserHeap.h UserHeapNode.cpp UserHeapNode.h UserList.cpp UserList.h UserListNode.cpp UserListNode.h
 ```
