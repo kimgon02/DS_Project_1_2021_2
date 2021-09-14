@@ -23,7 +23,7 @@
 ### 1. 프로젝트 문서 및 소스코드 수정사항
 
 #### [2021_DS_Project1_ver1.pdf](https://github.com/DSLDataStorage/DS_Project_1_2021_2/files/7154298/2021_DS_Project1_ver1.pdf)
-
+#### UserListNode.h 수정 - int AccNum(계정 수) 변수 추가, int GetAccNum 함수 추가
 ```
 9/13 - ver1 업로드
 ```
